@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acervo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Acervo</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="acervo.html">Acervo</a>
+    <a href="indicacoes.html">Indicações</a>
+  </nav>
+  <section class="crud-form">
+    <h2>Adicionar Livro</h2>
+    <form id="formLivro">
+      <input type="text" id="titulo" placeholder="Título" required>
+      <input type="text" id="autor" placeholder="Autor" required>
+      <input type="text" id="capa" placeholder="URL da Capa" required>
+      <textarea id="resumo" placeholder="Resumo" required></textarea>
+      <button type="submit">Adicionar</button>
+    </form>
+  </section>
+  <main class="acervo" id="acervo"></main>
+  <script src="script.js"></script>
+</body>
+</html>
